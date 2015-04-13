@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright (c) 2012, Søren Atmakuri Davidsen
+  ~ All rights reserved.
+  ~
+  ~ Redistribution and use in source and binary forms, with or without
+  ~ modification, are permitted provided that the following conditions are met:
+  ~
+  ~ 1. Redistributions of source code must retain the above copyright notice, this
+  ~    list of conditions and the following disclaimer.
+  ~ 2. Redistributions in binary form must reproduce the above copyright notice,
+  ~    this list of conditions and the following disclaimer in the documentation
+  ~    and/or other materials provided with the distribution.
+  ~
+  ~ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+  ~ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+  ~ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+  ~ DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+  ~ ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+  ~ (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+  ~ LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+  ~ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+  ~ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+  ~ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+  -->
+
+<!--  An excerpt of an egocentric social network  -->
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+<graph edgedefault="undirected">
+
+<!-- data schema -->
+<key id="name" for="node" attr.name="name" attr.type="string"/>
+<key id="gender" for="node" attr.name="gender" attr.type="string"/>
+
+<!-- nodes of Borgatti's example 1-->
+<node id="a">
+ <data key="name">Jeff</data>
+ <data key="gender">M</data>
+ </node>
+<node id="b">
+ <data key="name">Ed</data>
+ <data key="gender">M</data>
+</node>
+<node id="c">
+ <data key="name">Christiaan</data>
+ <data key="gender">M</data>
+</node>
+<node id="d">
+ <data key="name">Emily</data>
+ <data key="gender">F</data>
+</node>
+<node id="e">
+ <data key="name">Adam</data>
+ <data key="gender">M</data>
+</node>
+<node id="f">
+ <data key="name">Cynthia</data>
+ <data key="gender">F</data>
+</node>
+<node id="g">
+ <data key="name">Joylette</data>
+ <data key="gender">F</data>
+</node>
+<node id="h">
+ <data key="name">Amanda</data>
+ <data key="gender">F</data>
+</node>
+<node id="i">
+ <data key="name">Amanda</data>
+ <data key="gender">F</data>
+</node>
+<node id="j">
+ <data key="name">Amanda</data>
+ <data key="gender">F</data>
+</node>
+<node id="k">
+ <data key="name">Amanda</data>
+ <data key="gender">F</data>
+</node>
+<node id="l">
+ <data key="name">Amanda</data>
+ <data key="gender">F</data>
+</node>
+<node id="m">
+ <data key="name">Amanda</data>
+ <data key="gender">F</data>
+</node>
+<node id="n">
+ <data key="name">Amanda</data>
+ <data key="gender">F</data>
+</node>
+<node id="o">
+ <data key="name">Amanda</data>
+ <data key="gender">F</data>
+</node>
+<node id="p">
+ <data key="name">Amanda</data>
+ <data key="gender">F</data>
+</node>
+<node id="q">
+ <data key="name">Amanda</data>
+ <data key="gender">F</data>
+</node>
+<node id="r">
+ <data key="name">Amanda</data>
+ <data key="gender">F</data>
+</node>
+<node id="s">
+ <data key="name">Amanda</data>
+ <data key="gender">F</data>
+</node>
+
+<!-- edges -->
+<edge source="a" target="b"></edge>
+<edge source="a" target="d"></edge>
+<edge source="a" target="f"></edge>
+<!-- ed's friends -->
+<edge source="b" target="d"></edge>
+<edge source="b" target="e"></edge>
+<edge source="b" target="g"></edge>
+<!-- christiaan's friends -->
+<edge source="c" target="d"></edge>
+<edge source="c" target="h"></edge>
+<!-- emily's friends -->
+<edge source="d" target="e"></edge>
+<edge source="d" target="f"></edge>
+<edge source="d" target="g"></edge>
+<!-- adam's friends -->
+<edge source="e" target="g"></edge>
+<!-- cynthia's friends -->
+<edge source="f" target="g"></edge>
+<edge source="f" target="h"></edge>
+<!-- joylette's friends -->
+<edge source="g" target="h"></edge>
+
+<edge source="h" target="i"></edge>
+
+<edge source="i" target="j"></edge>
+<edge source="i" target="n"></edge>
+<edge source="i" target="p"></edge>
+
+<edge source="j" target="m"></edge>
+<edge source="j" target="l"></edge>
+<edge source="j" target="k"></edge>
+<edge source="j" target="o"></edge>
+
+<edge source="k" target="l"></edge>
+<edge source="k" target="p"></edge>
+
+<edge source="l" target="m"></edge>
+
+<edge source="m" target="q"></edge>
+
+<edge source="o" target="n"></edge>
+
+<edge source="p" target="j"></edge>
+<edge source="p" target="n"></edge>
+
+
+<edge source="q" target="s"></edge>
+
+<edge source="r" target="h"></edge>
+
+</graph>
+</graphml>

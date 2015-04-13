@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright (c) 2012, Søren Atmakuri Davidsen
+  ~ All rights reserved.
+  ~
+  ~ Redistribution and use in source and binary forms, with or without
+  ~ modification, are permitted provided that the following conditions are met:
+  ~
+  ~ 1. Redistributions of source code must retain the above copyright notice, this
+  ~    list of conditions and the following disclaimer.
+  ~ 2. Redistributions in binary form must reproduce the above copyright notice,
+  ~    this list of conditions and the following disclaimer in the documentation
+  ~    and/or other materials provided with the distribution.
+  ~
+  ~ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+  ~ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+  ~ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+  ~ DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+  ~ ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+  ~ (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+  ~ LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+  ~ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+  ~ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+  ~ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+  -->
+
+<!--  An excerpt of an egocentric social network  -->
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+<graph edgedefault="undirected">
+
+<!-- data schema -->
+<key id="name" for="node" attr.name="name" attr.type="string"/>
+<key id="gender" for="node" attr.name="gender" attr.type="string"/>
+
+<!-- nodes of Borgatti's example 1-->
+<node id="1">
+ <data key="name">Jeff</data>
+ <data key="gender">M</data>
+ </node>
+<node id="2">
+ <data key="name">Ed</data>
+ <data key="gender">M</data>
+</node>
+<node id="3">
+ <data key="name">Christiaan</data>
+ <data key="gender">M</data>
+</node>
+<node id="4">
+ <data key="name">Emily</data>
+ <data key="gender">F</data>
+</node>
+<node id="5">
+ <data key="name">Adam</data>
+ <data key="gender">M</data>
+</node>
+<node id="6">
+ <data key="name">Cynthia</data>
+ <data key="gender">F</data>
+</node>
+<node id="7">
+ <data key="name">Joylette</data>
+ <data key="gender">F</data>
+</node>
+<node id="8">
+ <data key="name">Amanda</data>
+ <data key="gender">F</data>
+</node>
+<node id="9">
+ <data key="name">Amanda</data>
+ <data key="gender">F</data>
+</node>
+<node id="10">
+ <data key="name">Amanda</data>
+ <data key="gender">F</data>
+</node>
+<node id="11">
+ <data key="name">Amanda</data>
+ <data key="gender">F</data>
+</node>
+<node id="12">
+ <data key="name">Amanda</data>
+ <data key="gender">F</data>
+</node>
+<node id="13">
+ <data key="name">Amanda</data>
+ <data key="gender">F</data>
+</node>
+<node id="14"><data key="name">Amanda</data>
+ <data key="gender">F</data>
+</node>
+<node id="15">
+ <data key="name">Amanda</data>
+ <data key="gender">F</data>
+</node>
+
+<!-- edges -->
+<edge source="1" target="2"></edge>
+<edge source="1" target="3"></edge>
+<edge source="1" target="4"></edge>
+<edge source="1" target="5"></edge>
+<edge source="1" target="6"></edge>
+<edge source="1" target="7"></edge>
+<edge source="1" target="8"></edge>
+
+<!-- ed's friends -->
+<edge source="2" target="3"></edge>
+<!-- christiaan's friends -->
+<edge source="3" target="15"></edge>
+<!-- emily's friends -->
+<edge source="4" target="13"></edge>
+<edge source="4" target="15"></edge>
+
+<!-- adam's friends -->
+<edge source="5" target="13"></edge>
+<edge source="5" target="14"></edge>
+
+<!-- cynthia's friends -->
+<edge source="6" target="7"></edge>
+<edge source="6" target="14"></edge>
+<!-- joylette's friends -->
+<edge source="7" target="8"></edge>
+
+<edge source="8" target="9"></edge>
+<edge source="8" target="10"></edge>
+<edge source="8" target="11"></edge>
+<edge source="8" target="12"></edge>
+
+<edge source="9" target="10"></edge>
+<edge source="9" target="11"></edge>
+<edge source="9" target="12"></edge>
+
+<edge source="10" target="11"></edge>
+<edge source="10" target="12"></edge>
+
+
+</graph>
+</graphml>

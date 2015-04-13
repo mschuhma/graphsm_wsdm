@@ -1,0 +1,57 @@
+#Snippet Input Path
+input.snippets.path 	= ../05-SemEval/02-data/MoresqueAmbient
+#input.snippets.path 	= ../05-SemEval/02-data/Ambient
+#input.snippets.path 	= ../05-SemEval/02-data/SemEval-2013-task-11-TestData
+
+#Snippet Input Structure
+input.snippets.topics 	= /topics.txt
+input.snippets.results = /results.txt
+
+#DBPedia Spotlight
+#dbpedia.spotlight.url 	= http://spotlight.dbpedia.org/rest/disambiguate
+dbpedia.spotlight.url 	= http://spotlight.dbpedia.org/rest/annotate
+#dbpedia.spotlight.url	= http://spotlight.dbpedia.org/rest/candidates
+
+#DBPedia Sparql
+#dbpedia.sparql.url = http://live.dbpedia.org/sparql
+#dbpedia.sparql.url = http://dbpedia.org/sparql
+dbpedia.sparql.url 	= http://PUT-IN-YOUR-LOCAL-DBPEDIA-VIRUOSO-SERVER-HERE:8890/sparql
+dbpedia.conn.retries 	= 3
+dbpedia.conn.timeout.sec 	= 30
+dbpedia.conn.pauses.each.conn.msec 	= 5
+dbpedia.conn.wait.after.error.sec 	= 120
+
+#DBPedia Virtuoso JDBC
+dbpedia.virtuoso.server    = PUT-IN-YOUR-LOCAL-DBPEDIA-VIRUOSO-SERVER-HERE
+dbpedia.virtuoso.user      = PUT-IN-USERNAME-HERE
+dbpedia.virtuoso.password  = PUT-IN-PASSWORD-HERE
+
+#Tagme Annotation Service
+tagme.url	= http://tagme.di.unipi.it/tag
+tagme.api.key 	= PUT-IN-KEY-HERE
+
+#DBPedia Filter Configurations
+dbpedia.filter.categories = src/main/resources/DBPediaStopUris_DeriHulpus2013_Extended.txt
+dbpedia.filter.predicates = src/main/resources/DBPediaStopUris_Preds.txt
+
+#Neo4j Graph Database
+#graphdb.testdir 	= neo4j/data/new_graph.db
+graphdb.testdir 	= /var/lib/neo4j/data/graph.db
+graphdb.rest.api 	= http://PUT-IN-YOUR-LOCAL-NEO4J-SERVER-HERE:7474/db/data/
+
+#MySQL Database for DBPediaWeights
+mysql.host 	= localhost
+mysql.port 	= 3306
+mysql.user 	= PUT-IN-USERNAME-HERE
+mysql.passwd	= PUT-IN-PASSWORD-HERE
+mysql.db.dbpediaweights 	= dbpweights
+mysql.db.dbpediacounts 	    = dbpcounts
+mysql.db.neo4jcache	= neo4jpath
+mysql.db.neo4jcache.dijkstra.table	= leepincombe-2hops-dijkstra
+mysql.db.neo4jcache.shortestpath.table	= leepincombe-2hops-spath
+
+#System Settings
+system.parallel.threads = 2
+
+#Misc
+misc.prefixcc.file=prefixcc-20130404.tab

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright (c) 2012, Søren Atmakuri Davidsen
+  ~ All rights reserved.
+  ~
+  ~ Redistribution and use in source and binary forms, with or without
+  ~ modification, are permitted provided that the following conditions are met:
+  ~
+  ~ 1. Redistributions of source code must retain the above copyright notice, this
+  ~    list of conditions and the following disclaimer.
+  ~ 2. Redistributions in binary form must reproduce the above copyright notice,
+  ~    this list of conditions and the following disclaimer in the documentation
+  ~    and/or other materials provided with the distribution.
+  ~
+  ~ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+  ~ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+  ~ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+  ~ DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+  ~ ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+  ~ (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+  ~ LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+  ~ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+  ~ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+  ~ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+  -->
+
+<!--  An excerpt of an egocentric social network  -->
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+<graph edgedefault="undirected">
+
+<!-- data schema -->
+<key id="name" for="node" attr.name="name" attr.type="string"/>
+<key id="gender" for="node" attr.name="gender" attr.type="string"/>
+
+<!-- nodes of Borgatti's Marriage examples -->
+<node id="GS">
+ <data key="name">Jeff</data>
+ <data key="gender">M</data>
+ </node>
+<node id="DI">
+ <data key="name">Ed</data>
+ <data key="gender">M</data>
+</node>
+<node id="KA">
+ <data key="name">Christiaan</data>
+ <data key="gender">M</data>
+</node>
+<node id="DB">
+ <data key="name">Emily</data>
+ <data key="gender">F</data>
+</node>
+<node id="BW">
+ <data key="name">Adam</data>
+ <data key="gender">M</data>
+</node>
+<node id="PH">
+ <data key="name">Cynthia</data>
+ <data key="gender">F</data>
+</node>
+<node id="BM">
+ <data key="name">Joylette</data>
+ <data key="gender">F</data>
+</node>
+<node id="HA">
+ <data key="name">Amanda</data>
+ <data key="gender">F</data>
+</node>
+<node id="LK">
+ <data key="name">Amanda</data>
+ <data key="gender">F</data>
+</node>
+<node id="CR">
+ <data key="name">Amanda</data>
+ <data key="gender">F</data>
+</node>
+<node id="SR">
+ <data key="name">Amanda</data>
+ <data key="gender">F</data>
+</node>
+<node id="HB">
+ <data key="name">Amanda</data>
+ <data key="gender">F</data>
+</node>
+<node id="EE">
+ <data key="name">Amanda</data>
+ <data key="gender">F</data>
+</node>
+<node id="TO">
+ <data key="name">Amanda</data>
+ <data key="gender">F</data>
+</node>
+<node id="CD">
+ <data key="name">Amanda</data>
+ <data key="gender">F</data>
+</node>
+<node id="NP">
+ <data key="name">Amanda</data>
+ <data key="gender">F</data>
+</node>
+<node id="BS">
+ <data key="name">Amanda</data>
+ <data key="gender">F</data>
+</node>
+<node id="MG">
+ <data key="name">Amanda</data>
+ <data key="gender">F</data>
+</node>
+<node id="MJ">
+ <data key="name">Amanda</data>
+ <data key="gender">F</data>
+</node>
+<node id="BS'">
+ <data key="name">Amanda</data>
+ <data key="gender">F</data>
+</node>
+<node id="WL">
+ <data key="name">Amanda</data>
+ <data key="gender">F</data>
+</node>
+<node id="HS">
+ <data key="name">Amanda</data>
+ <data key="gender">F</data>
+</node>
+<node id="PS">
+ <data key="name">Amanda</data>
+ <data key="gender">F</data>
+</node>
+<node id="BR">
+ <data key="name">Amanda</data>
+ <data key="gender">F</data>
+</node>
+<node id="WD">
+ <data key="name">Amanda</data>
+ <data key="gender">F</data>
+</node>
+<node id="WS">
+ <data key="name">Amanda</data>
+ <data key="gender">F</data>
+</node>
+<node id="KR">
+ <data key="name">Amanda</data>
+ <data key="gender">F</data>
+</node>
+<node id="GM">
+ <data key="name">Amanda</data>
+ <data key="gender">F</data>
+</node>
+<node id="JE">
+ <data key="name">Amanda</data>
+ <data key="gender">F</data>
+</node>
+<node id="BS''">
+ <data key="name">Amanda</data>
+ <data key="gender">F</data>
+</node>
+<node id="SF">
+ <data key="name">Amanda</data>
+ <data key="gender">F</data>
+</node>
+<node id="LR">
+ <data key="name">Amanda</data>
+ <data key="gender">F</data>
+</node>
+
+
+<!-- edges -->
+<edge source="GS" target="DI"></edge>
+<edge source="DI" target="KA"></edge>
+
+<edge source="KA" target="DI"></edge>
+<edge source="KA" target="PH"></edge>
+
+<edge source="BW" target="PH"></edge>
+<edge source="BW" target="BM"></edge>
+
+<edge source="DI" target="HA"></edge>
+
+<edge source="DB" target="BW"></edge>
+
+<edge source="PH" target="BM"></edge>
+<edge source="PH" target="SR"></edge>
+
+<edge source="BM" target="LK"></edge>
+
+<edge source="BM" target="CR"></edge>
+<edge source="BM" target="HA"></edge>
+<edge source="BM" target="SR"></edge>
+
+<edge source="SR" target="HB"></edge>
+
+<edge source="HB" target="EE"></edge>
+<edge source="HB" target="CD"></edge>
+<edge source="HB" target="TO"></edge>
+<edge source="HB" target="NP"></edge>
+
+<edge source="TO" target="MJ"></edge>
+<edge source="TO" target="BS"></edge>
+<edge source="TO" target="NP"></edge>
+
+<edge source="MJ" target="BS"></edge>
+
+<edge source="CD" target="NP"></edge>
+<edge source="CD" target="WL"></edge>
+
+<edge source="NP" target="BS'"></edge>
+<edge source="NP" target="BS"></edge>
+
+<edge source="BS'" target="MG"></edge>
+
+<edge source="HS" target="PS"></edge>
+<edge source="HS" target="KR"></edge>
+
+<edge source="PS" target="KR"></edge>
+<edge source="PS" target="WD"></edge>
+<edge source="PS" target="GM"></edge>
+<edge source="PS" target="BS''"></edge>
+<edge source="PS" target="WS"></edge>
+
+<edge source="KR" target="BS''"></edge>
+<edge source="KR" target="SF"></edge>
+<edge source="KR" target="JE"></edge>
+
+<edge source="GM" target="BS''"></edge>
+<edge source="GM" target="SF"></edge>
+<edge source="GM" target="WD"></edge>
+
+<edge source="WD" target="BS''"></edge>
+<edge source="WD" target="SF"></edge>
+
+<edge source="HS" target="PS"></edge>
+<edge source="HS" target="KR"></edge>
+
+<edge source="PS" target="WS"></edge>
+<edge source="PS" target="KR"></edge>
+<edge source="PS" target="WD"></edge>
+<edge source="PS" target="BS''"></edge>
+
+<edge source="BR" target="KR"></edge>
+<edge source="BR" target="BS''"></edge>
+<edge source="BR" target="GM"></edge>
+<edge source="BR" target="WD"></edge>
+
+<edge source="WS" target="BS''"></edge>
+<edge source="WS" target="KR"></edge>
+
+<edge source="JE" target="BS''"></edge>
+
+<edge source="BS''" target="LR"></edge>
+<edge source="BS''" target="SF"></edge>
+
+<edge source="WD" target="HA"></edge>
+
+
+</graph>
+</graphml>

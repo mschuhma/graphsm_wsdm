@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  ~ Copyright (c) 2012, Søren Atmakuri Davidsen
+  ~ All rights reserved.
+  ~
+  ~ Redistribution and use in source and binary forms, with or without
+  ~ modification, are permitted provided that the following conditions are met:
+  ~
+  ~ 1. Redistributions of source code must retain the above copyright notice, this
+  ~    list of conditions and the following disclaimer.
+  ~ 2. Redistributions in binary form must reproduce the above copyright notice,
+  ~    this list of conditions and the following disclaimer in the documentation
+  ~    and/or other materials provided with the distribution.
+  ~
+  ~ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+  ~ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+  ~ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+  ~ DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+  ~ ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+  ~ (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+  ~ LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+  ~ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+  ~ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+  ~ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+  -->
+
+<!--  weighted social network of known and suspected terrorists  -->
+<!--  involved in the September 11, 2001 Mohamed_Attacks                 -->
+
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+ <graph edgedefault="undirected">
+
+  <!-- data schema -->
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="flight" for="node" attr.name="flight" attr.type="string">
+    <default></default>
+  </key>
+  <key id="pilot" for="node" attr.name="pilot" attr.type="boolean">
+    <default>false</default>
+  </key>
+  <key id="weight" for="edge" attr.name="weight" attr.type="int"/>
+
+	<node id="General"><data key="name">General</data></node>
+	<node id="Cornel1"><data key="name">Cornel1</data></node>
+	<node id="Cornel2"><data key="name">Cornel2</data></node>
+	<node id="Cornel3"><data key="name">Cornel3</data></node>
+	<node id="Officer11"><data key="name">Officer11</data></node>
+	<node id="Officer12"><data key="name">Officer12</data></node>
+	<node id="Officer13"><data key="name">Officer13</data></node>
+	<node id="Officer14"><data key="name">Officer14</data></node>
+	<node id="Officer15"><data key="name">Officer15</data></node>
+	<node id="Officer21"><data key="name">Officer21</data></node>
+	<node id="Officer22"><data key="name">Officer22</data></node>
+	<node id="Officer23"><data key="name">Officer23</data></node>
+	<node id="Officer24"><data key="name">Officer24</data></node>
+	<node id="Officer25"><data key="name">Officer35</data></node>
+	<node id="Officer31"><data key="name">Officer31</data></node>
+	<node id="Officer32"><data key="name">Officer32</data></node>
+	<node id="Officer33"><data key="name">Officer33</data></node>
+	<node id="Officer34"><data key="name">Officer34</data></node>
+	<node id="Officer35"><data key="name">Officer35</data></node>
+
+	<edge source="General" target="Cornel1"><data key="weight">1</data></edge>
+	<edge source="General" target="Cornel2"><data key="weight">1</data></edge>
+	<edge source="General" target="Cornel3"><data key="weight">1</data></edge>
+	<edge source="Cornel1" target="Officer11"><data key="weight">1</data></edge>
+	<edge source="Cornel1" target="Officer12"><data key="weight">1</data></edge>
+	<edge source="Cornel1" target="Officer13"><data key="weight">1</data></edge>
+	<edge source="Cornel1" target="Officer14"><data key="weight">1</data></edge>
+	<edge source="Cornel1" target="Officer15"><data key="weight">1</data></edge>
+	<edge source="Cornel2" target="Officer21"><data key="weight">1</data></edge>
+	<edge source="Cornel2" target="Officer22"><data key="weight">1</data></edge>
+	<edge source="Cornel2" target="Officer23"><data key="weight">1</data></edge>
+	<edge source="Cornel2" target="Officer24"><data key="weight">1</data></edge>
+	<edge source="Cornel2" target="Officer25"><data key="weight">1</data></edge>
+	<edge source="Cornel3" target="Officer31"><data key="weight">1</data></edge>
+	<edge source="Cornel3" target="Officer32"><data key="weight">1</data></edge>
+	<edge source="Cornel3" target="Officer33"><data key="weight">1</data></edge>
+	<edge source="Cornel3" target="Officer34"><data key="weight">1</data></edge>
+	<edge source="Cornel3" target="Officer35"><data key="weight">1</data></edge>
+	<edge source="Cornel1" target="Cornel2"><data key="weight">1</data></edge>
+	<edge source="Cornel1" target="Cornel3"><data key="weight">1</data></edge>
+	<edge source="Cornel2" target="Cornel3"><data key="weight">1</data></edge>
+
+
+
+
+
+
+ </graph>
+</graphml>
+

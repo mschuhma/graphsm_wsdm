@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright (c) 2012, Søren Atmakuri Davidsen
+  ~ All rights reserved.
+  ~
+  ~ Redistribution and use in source and binary forms, with or without
+  ~ modification, are permitted provided that the following conditions are met:
+  ~
+  ~ 1. Redistributions of source code must retain the above copyright notice, this
+  ~    list of conditions and the following disclaimer.
+  ~ 2. Redistributions in binary form must reproduce the above copyright notice,
+  ~    this list of conditions and the following disclaimer in the documentation
+  ~    and/or other materials provided with the distribution.
+  ~
+  ~ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+  ~ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+  ~ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+  ~ DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+  ~ ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+  ~ (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+  ~ LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+  ~ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+  ~ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+  ~ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+  -->
+
+<!--  Enron email network  -->
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <graph edgedefault="undirected">
+        <!-- data schema -->
+        <key id="name" for="node" attr.name="name" attr.type="string"/>
+        <key id="email" for="node" attr.name="email" attr.type="string"/>
+        <!-- nodes -->
+        <node id="117-Mary-Fischer">
+            <data key="name">Mary Fischer</data>
+            <data key="email">mary.fischer@enron.com</data>
+        </node>
+        <node id="123-Sally-Beck">
+            <data key="name">Sally Beck</data>
+            <data key="email">sally.beck@enron.com</data>
+        </node>
+        <node id="66-Mark-Haedicke">
+            <data key="name">Mark Haedicke</data>
+            <data key="email">e..haedicke@enron.com</data>
+        </node>
+        <node id="140-Lysa-Akin">
+            <data key="name">Lysa Akin</data>
+            <data key="email">lysa.akin@enron.com</data>
+        </node>
+        <node id="65-Tom-Donohoe">
+            <data key="name">Tom Donohoe</data>
+            <data key="email">tom.donohoe@enron.com</data>
+        </node>
+        <node id="137-Drew-Fossum">
+            <data key="name">Drew Fossum</data>
+            <data key="email">drew.fossum@enron.com</data>
+        </node>
+        <node id="52-Steven-Kean">
+            <data key="name">Steven Kean</data>
+            <data key="email">j..kean@enron.com</data>
+        </node>
+        <node id="35-Juan-Hernandez">
+            <data key="name">Juan Hernandez</data>
+            <data key="email">juan.hernandez@enron.com</data>
+        </node>
+        <node id="12-Theresa-Staab">
+            <data key="name">Theresa Staab</data>
+            <data key="email">theresa.staab@enron.com</data>
+        </node>
+        <node id="77-Debra-Perlingiere">
+            <data key="name">Debra Perlingiere</data>
+            <data key="email">debra.perlingiere@enron.com</data>
+        </node>
+        <node id="85-Geoff-Storey">
+            <data key="name">Geoff Storey</data>
+            <data key="email">geoff.storey@enron.com</data>
+        </node>
+        <node id="135-Craig-Dean">
+            <data key="name">Craig Dean</data>
+            <data key="email">craig.dean@enron.com</data>
+        </node>
+        <node id="25-John-Forney">
+            <data key="name">John Forney</data>
+            <data key="email">m..forney@enron.com</data>
+        </node>
+        <node id="94-Phillip-Platter">
+            <data key="name">Phillip Platter</data>
+            <data key="email">phillip.platter@enron.com</data>
+        </node>
+        <node id="148-Chris-Stokley">
+            <data key="name">Chris Stokley</data>
+            <data key="email">chris.stokley@enron.com</data>
+        </node>
+        <node id="16-Teb-Lokey">
+            <data key="name">Teb Lokey</data>
+            <data key="email">teb.lokey@enron.com</data>
+        </node>
+        <node id="118-Daren-Farmer">
+            <data key="name">Daren Farmer</data>
+            <data key="email">j..farmer@enron.com</data>
+        </node>
+        <node id="149-Kate-Symes">
+            <data key="name">Kate Symes</data>
+            <data key="email">kate.symes@enron.com</data>
+        </node>
+        <node id="58-Williams-Jason">
+            <data key="name">Williams Jason</data>
+            <data key="email">jason.williams@enron.com</data>
+        </node>
+        <node id="131-Sean-Crandall">
+            <data key="name">Sean Crandall</data>
+            <data key="email">sean.crandall@enron.com</data>
+        </node>
+        <node id="142-Dan-Hyvl">
+            <data key="name">Dan Hyvl</data>
+            <data key="email">dan.hyvl@enron.com</data>
+        </node>
+        <node id="150-Liz-Taylor">
+            <data key="name">Liz Taylor</data>
+            <data key="email">liz.taylor@enron.com</data>
+        </node>
+        <node id="26-Jay-Reitmeyer">
+            <data key="name">Jay Reitmeyer</data>
+            <data key="email">jay.reitmeyer@enron.com</data>
+        </node>
+        <node id="129-Kam-Keiser">
+            <data key="name">Kam Keiser</data>
+            <data key="email">kam.keiser@enron.com</data>
+        </node>
+        <node id="80-Stacey-White">
+            <data key="name">Stacey White</data>
+            <data key="email">w..white@enron.com</data>
+        </node>
+        <node id="37-Jeffrey-Shankman">
+            <data key="name">Jeffrey Shankman</data>
+            <data key="email">a..shankman@enron.com</data>
+        </node>
+        <node id="1-Lynn-Blair">
+            <data key="name">Lynn Blair</data>
+            <data key="email">lynn.blair@enron.com</data>
+        </node>
+        <node id="95-Vladi-Pimenov">
+            <data key="name">Vladi Pimenov</data>
+            <data key="email">vladi.pimenov@enron.com</data>
+        </node>
+        <node id="134-Diana-Scholtes">
+            <data key="name">Diana Scholtes</data>
+            <data key="email">diana.scholtes@enron.com</data>
+        </node>
+        <node id="44-Larry-Campbell">
+            <data key="name">Larry Campbell</data>
+            <data key="email">f..campbell@enron.com</data>
+        </node>
+        <node id="91-Cooper-Richey">
+            <data key="name">Cooper Richey</data>
+            <data key="email">cooper.richey@enron.com</data>
+        </node>
+        <node id="24-James-Steffes">
+            <data key="name">James Steffes</data>
+            <data key="email">d..steffes@enron.com</data>
+        </node>
+        <node id="57-Jason-Wolfe">
+            <data key="name">Jason Wolfe</data>
+            <data key="email">jason.wolfe@enron.com</data>
+        </node>
+        <node id="30-Danny-McCarty">
+            <data key="name">Danny McCarty</data>
+            <data key="email">danny.mccarty@enron.com</data>
+        </node>
+        <node id="46-Harry-Arora">
+            <data key="name">Harry Arora</data>
+            <data key="email">harry.arora@enron.com</data>
+        </node>
+        <node id="151-Rosalee-Fleming">
+            <data key="name">Rosalee Fleming</data>
+            <data key="email">rosalee.fleming@enron.com</data>
+        </node>
+        <node id="101-Errol-McLaughlin">
+            <data key="name">Errol McLaughlin</data>
+            <data key="email">errol.mclaughlin@enron.com</data>
+        </node>
+        <node id="23-Joe-Quenet">
+            <data key="name">Joe Quenet</data>
+            <data key="email">joe.quenet@enron.com</data>
+        </node>
+        <node id="145-Robin-Rodrigue">
+            <data key="name">Robin Rodrigue</data>
+            <data key="email">robin.rodrigue@enron.com</data>
+        </node>
+        <node id="9-Phillip-Allen">
+            <data key="name">Phillip Allen</data>
+            <data key="email">k..allen@enron.com</data>
+        </node>
+        <node id="122-Robert-Benson">
+            <data key="name">Robert Benson</data>
+            <data key="email">robert.benson@enron.com</data>
+        </node>
+        <node id="27-Frank-Ermis">
+            <data key="name">Frank Ermis</data>
+            <data key="email">frank.ermis@enron.com</data>
+        </node>
+        <node id="70-Richard-Shapiro">
+            <data key="name">Richard Shapiro</data>
+            <data key="email">richard.shapiro@enron.com</data>
+        </node>
+        <node id="22-Keith-Holst">
+            <data key="name">Keith Holst</data>
+            <data key="email">keith.holst@enron.com</data>
+        </node>
+        <node id="47-David-Delainey">
+            <data key="name">David Delainey</data>
+            <data key="email">w..delainey@enron.com</data>
+        </node>
+        <node id="10-Stephanie-Panus">
+            <data key="name">Stephanie Panus</data>
+            <data key="email">stephanie.panus@enron.com</data>
+        </node>
+        <node id="89-Eric-Saibi">
+            <data key="name">Eric Saibi</data>
+            <data key="email">eric.saibi@enron.com</data>
+        </node>
+        <node id="69-Rod-Hayslett">
+            <data key="name">Rod Hayslett</data>
+            <data key="email">rod.hayslett@enron.com</data>
+        </node>
+        <node id="112-John-Griffith">
+            <data key="name">John Griffith</data>
+            <data key="email">john.griffith@enron.com</data>
+        </node>
+        <node id="88-Holden-Salisbury">
+            <data key="name">Holden Salisbury</data>
+            <data key="email">holden.salisbury@enron.com</data>
+        </node>
+        <node id="103-Larry-May">
+            <data key="name">Larry May</data>
+            <data key="email">larry.may@enron.com</data>
+        </node>
+        <node id="90-Andrea-Ring">
+            <data key="name">Andrea Ring</data>
+            <data key="email">andrea.ring@enron.com</data>
+        </node>
+        <node id="119-Chris-Dorland">
+            <data key="name">Chris Dorland</data>
+            <data key="email">chris.dorland@enron.com</data>
+        </node>
+        <node id="106-Phillip-Love">
+            <data key="name">Phillip Love</data>
+            <data key="email">m..love@enron.com</data>
+        </node>
+        <node id="3-Michelle-Cash">
+            <data key="name">Michelle Cash</data>
+            <data key="email">michelle.cash@enron.com</data>
+        </node>
+        <node id="116-Lisa-Gang">
+            <data key="name">Lisa Gang</data>
+            <data key="email">lisa.gang@enron.com</data>
+        </node>
+        <node id="78-John-Zufferli">
+            <data key="name">John Zufferli</data>
+            <data key="email">john.zufferli@enron.com</data>
+        </node>
+        <node id="39-Barry-Tycholiz">
+            <data key="name">Barry Tycholiz</data>
+            <data key="email">barry.tycholiz@enron.com</data>
+        </node>
+        <node id="86-Geir-Solberg">
+            <data key="name">Geir Solberg</data>
+            <data key="email">geir.solberg@enron.com</data>
+        </node>
+        <node id="31-Bill-Rapp">
+            <data key="name">Bill Rapp</data>
+            <data key="email">bill.rapp@enron.com</data>
+        </node>
+        <node id="8-Mark-Whitt">
+            <data key="name">Mark Whitt</data>
+            <data key="email">mark.whitt@enron.com</data>
+        </node>
+        <node id="143-Eric-Linder">
+            <data key="name">Eric Linder</data>
+            <data key="email">eric.linder@enron.com</data>
+        </node>
+        <node id="18-Kevin-Hyatt">
+            <data key="name">Kevin Hyatt</data>
+            <data key="email">kevin.hyatt@enron.com</data>
+        </node>
+        <node id="5-Richard-Sanders">
+            <data key="name">Richard Sanders</data>
+            <data key="email">b..sanders@enron.com</data>
+        </node>
+        <node id="108-Louise-Kitchen">
+            <data key="name">Louise Kitchen</data>
+            <data key="email">louise.kitchen@enron.com</data>
+        </node>
+        <node id="104-Thomas-Martin">
+            <data key="name">Thomas Martin</data>
+            <data key="email">a..martin@enron.com</data>
+        </node>
+        <node id="128-Kenneth-Lay">
+            <data key="name">Kenneth Lay</data>
+            <data key="email">kenneth.lay@enron.com</data>
+        </node>
+        <node id="64-Scott-Hendrickson">
+            <data key="name">Scott Hendrickson</data>
+            <data key="email">scott.hendrickson@enron.com</data>
+        </node>
+        <node id="115-Chris-Germany">
+            <data key="name">Chris Germany</data>
+            <data key="email">chris.germany@enron.com</data>
+        </node>
+        <node id="96-Joe-Parks">
+            <data key="name">Joe Parks</data>
+            <data key="email">joe.parks@enron.com</data>
+        </node>
+        <node id="50-Susan-Scott">
+            <data key="name">Susan Scott</data>
+            <data key="email">susan.scott@enron.com</data>
+        </node>
+        <node id="87-Cara-Semperger">
+            <data key="name">Cara Semperger</data>
+            <data key="email">cara.semperger@enron.com</data>
+        </node>
+        <node id="141-Steven-Harris">
+            <data key="name">Steven Harris</data>
+            <data key="email">steven.harris@enron.com</data>
+        </node>
+        <node id="146-Steven-South">
+            <data key="name">Steven South</data>
+            <data key="email">steven.south@enron.com</data>
+        </node>
+        <node id="127-Hunter-Shively">
+            <data key="name">Hunter Shively</data>
+            <data key="email">s..shively@enron.com</data>
+        </node>
+        <node id="109-Jeff-King">
+            <data key="name">Jeff King</data>
+            <data key="email">jeff.king@enron.com</data>
+        </node>
+        <node id="107-Andrew-Lewis">
+            <data key="name">Andrew Lewis</data>
+            <data key="email">h..lewis@enron.com</data>
+        </node>
+        <node id="75-James-Derrick">
+            <data key="name">James Derrick</data>
+            <data key="email">james.derrick@enron.com</data>
+        </node>
+        <node id="67-Stanley-Horton">
+            <data key="name">Stanley Horton</data>
+            <data key="email">stanley.horton@enron.com</data>
+        </node>
+        <node id="21-Kimberly-Watson">
+            <data key="name">Kimberly Watson</data>
+            <data key="email">kimberly.watson@enron.com</data>
+        </node>
+        <node id="76-Gerald-Nemec">
+            <data key="name">Gerald Nemec</data>
+            <data key="email">gerald.nemec@enron.com</data>
+        </node>
+        <node id="32-Benjamin-Rogers">
+            <data key="name">Benjamin Rogers</data>
+            <data key="email">benjamin.rogers@enron.com</data>
+        </node>
+        <node id="81-Charles-Weldon">
+            <data key="name">Charles Weldon</data>
+            <data key="email">charles.weldon@enron.com</data>
+        </node>
+        <node id="133-Mike-Swerzbin">
+            <data key="name">Mike Swerzbin</data>
+            <data key="email">mike.swerzbin@enron.com</data>
+        </node>
+        <node id="100-Albert-Meyers">
+            <data key="name">Albert Meyers</data>
+            <data key="email">albert.meyers@enron.com</data>
+        </node>
+        <node id="15-Stacy-Dickson">
+            <data key="name">Stacy Dickson</data>
+            <data key="email">stacy.dickson@enron.com</data>
+        </node>
+        <node id="139-Mary-Hain">
+            <data key="name">Mary Hain</data>
+            <data key="email">mary.hain@enron.com</data>
+        </node>
+        <node id="49-Tana-Jones">
+            <data key="name">Tana Jones</data>
+            <data key="email">tana.jones@enron.com</data>
+        </node>
+        <node id="147-Carol-Clair">
+            <data key="name">Carol Clair</data>
+            <data key="email">carol.clair@enron.com</data>
+        </node>
+        <node id="105-Mike-Maggi">
+            <data key="name">Mike Maggi</data>
+            <data key="email">mike.maggi@enron.com</data>
+        </node>
+        <node id="98-Matt-Motley">
+            <data key="name">Matt Motley</data>
+            <data key="email">matt.motley@enron.com</data>
+        </node>
+        <node id="20-Lindy-Donoho">
+            <data key="name">Lindy Donoho</data>
+            <data key="email">lindy.donoho@enron.com</data>
+        </node>
+        <node id="45-Arnold-John">
+            <data key="name">Arnold John</data>
+            <data key="email">john.arnold@enron.com</data>
+        </node>
+        <node id="125-Don-Baughman">
+            <data key="name">Don Baughman</data>
+            <data key="email">don.baughman@enron.com</data>
+        </node>
+        <node id="111-John-Hodge">
+            <data key="name">John Hodge</data>
+            <data key="email">john.hodge@enron.com</data>
+        </node>
+        <node id="71-Michelle-Lokay">
+            <data key="name">Michelle Lokay</data>
+            <data key="email">michelle.lokay@enron.com</data>
+        </node>
+        <node id="59-Jim-Schwieger">
+            <data key="name">Jim Schwieger</data>
+            <data key="email">jim.schwieger@enron.com</data>
+        </node>
+        <node id="11-Susan-Pereira">
+            <data key="name">Susan Pereira</data>
+            <data key="email">w..pereira@enron.com</data>
+        </node>
+        <node id="29-Darrell-Schoolcraft">
+            <data key="name">Darrell Schoolcraft</data>
+            <data key="email">darrell.schoolcraft@enron.com</data>
+        </node>
+        <node id="79-Andy-Zipper">
+            <data key="name">Andy Zipper</data>
+            <data key="email">andy.zipper@enron.com</data>
+        </node>
+        <node id="73-Mark-McConnell">
+            <data key="name">Mark McConnell</data>
+            <data key="email">mark.mcconnell@enron.com</data>
+        </node>
+        <node id="56-Paul-Barbo">
+            <data key="name">Paul Barbo</data>
+            <data key="email">paul.y barbo@enron.com</data>
+        </node>
+        <node id="97-Scott-Neal">
+            <data key="name">Scott Neal</data>
+            <data key="email">scott.neal@enron.com</data>
+        </node>
+        <node id="82-Judy-Townsend">
+            <data key="name">Judy Townsend</data>
+            <data key="email">judy.townsend@enron.com</data>
+        </node>
+        <node id="84-Fletcher-Sturm">
+            <data key="name">Fletcher Sturm</data>
+            <data key="email">j..sturm@enron.com</data>
+        </node>
+        <node id="62-Matthew-Lenhart">
+            <data key="name">Matthew Lenhart</data>
+            <data key="email">matthew.lenhart@enron.com</data>
+        </node>
+        <node id="121-Sandra-Brawner">
+            <data key="name">Sandra Brawner</data>
+            <data key="email">f..brawner@enron.com</data>
+        </node>
+        <node id="19-Robert-Badeer">
+            <data key="name">Robert Badeer</data>
+            <data key="email">robert.badeer@enron.com</data>
+        </node>
+        <node id="4-Monika-Causholli">
+            <data key="name">Monika Causholli</data>
+            <data key="email">monika.causholli@enron.com</data>
+        </node>
+        <node id="60-Monique-Sanchez">
+            <data key="name">Monique Sanchez</data>
+            <data key="email">monique.sanchez@enron.com</data>
+        </node>
+        <node id="17-Tracy-Geaccone">
+            <data key="name">Tracy Geaccone</data>
+            <data key="email">tracy.geaccone@enron.com</data>
+        </node>
+        <node id="138-Mark-Guzman">
+            <data key="name">Mark Guzman</data>
+            <data key="email">mark.guzman@enron.com</data>
+        </node>
+        <node id="124-Rick-Buy">
+            <data key="name">Rick Buy</data>
+            <data key="email">rick.buy@enron.com</data>
+        </node>
+        <node id="34-Kim-Ward">
+            <data key="name">Kim Ward</data>
+            <data key="email">kim.ward@enron.com</data>
+        </node>
+        <node id="114-Doug-Gilbert-smith">
+            <data key="name">Doug Gilbert-smith</data>
+            <data key="email">doug.gilbert-smith@enron.com</data>
+        </node>
+        <node id="40-Dana-Davis">
+            <data key="name">Dana Davis</data>
+            <data key="email">dana.davis@enron.com</data>
+        </node>
+        <node id="13-Mark-Taylor">
+            <data key="name">Mark Taylor</data>
+            <data key="email">taylor@enron.com</data>
+        </node>
+        <node id="6-Marie-Heard">
+            <data key="name">Marie Heard</data>
+            <data key="email">marie.heard@enron.com</data>
+        </node>
+        <node id="74-Jeff-Dasovich">
+            <data key="name">Jeff Dasovich</data>
+            <data key="email">jeff.dasovich@enron.com</data>
+        </node>
+        <node id="41-Tori-Kuykendall">
+            <data key="name">Tori Kuykendall</data>
+            <data key="email">tori.kuykendall@enron.com</data>
+        </node>
+        <node id="7-Paul-Lucci">
+            <data key="name">Paul Lucci</data>
+            <data key="email">t..lucci@enron.com</data>
+        </node>
+        <node id="83-Paul-Thomas">
+            <data key="name">Paul Thomas</data>
+            <data key="email">d..thomas@enron.com</data>
+        </node>
+        <node id="144-Steven-Merris">
+            <data key="name">Steven Merris</data>
+            <data key="email">steven.merris@enron.com</data>
+        </node>
+        <node id="14-Richard-Ring">
+            <data key="name">Richard Ring</data>
+            <data key="email">richard.ring@enron.com</data>
+        </node>
+        <node id="72-Smith-Matt">
+            <data key="name">Smith Matt</data>
+            <data key="email">matt.smith@enron.com</data>
+        </node>
+        <node id="136-Bill-Williams">
+            <data key="name">Bill Williams</data>
+            <data key="email">bill.williams@enron.com</data>
+        </node>
+        <node id="93-Kevin-Presto">
+            <data key="name">Kevin Presto</data>
+            <data key="email">m..presto@enron.com</data>
+        </node>
+        <node id="63-Peter-Keavey">
+            <data key="name">Peter Keavey</data>
+            <data key="email">peter.keavey@enron.com</data>
+        </node>
+        <node id="43-Martin-Cuilla">
+            <data key="name">Martin Cuilla</data>
+            <data key="email">martin.cuilla@enron.com</data>
+        </node>
+        <node id="68-Sara-Shackleton">
+            <data key="name">Sara Shackleton</data>
+            <data key="email">sara.shackleton@enron.com</data>
+        </node>
+        <node id="61-Kevin-Ruscitti">
+            <data key="name">Kevin Ruscitti</data>
+            <data key="email">kevin.ruscitti@enron.com</data>
+        </node>
+        <node id="99-Patrice-Mims">
+            <data key="name">Patrice Mims</data>
+            <data key="email">l..mims@enron.com</data>
+        </node>
+        <node id="36-Joe-Stepenovitch">
+            <data key="name">Joe Stepenovitch</data>
+            <data key="email">joe.stepenovitch@enron.com</data>
+        </node>
+        <node id="42-Randall-Gay">
+            <data key="name">Randall Gay</data>
+            <data key="email">l..gay@enron.com</data>
+        </node>
+        <node id="51-Susan-Bailey">
+            <data key="name">Susan Bailey</data>
+            <data key="email">susan.bailey@enron.com</data>
+        </node>
+        <node id="92-Dutch-Quigley">
+            <data key="name">Dutch Quigley</data>
+            <data key="email">dutch.quigley@enron.com</data>
+        </node>
+        <node id="55-Greg-Whalley">
+            <data key="name">Greg Whalley</data>
+            <data key="email">greg.whalley@enron.com</data>
+        </node>
+        <node id="132-Ryan-Slinger">
+            <data key="name">Ryan Slinger</data>
+            <data key="email">ryan.slinger@enron.com</data>
+        </node>
+        <node id="126-Eric-Bass">
+            <data key="name">Eric Bass</data>
+            <data key="email">eric.bass@enron.com</data>
+        </node>
+        <node id="33-Shelley-Corman">
+            <data key="name">Shelley Corman</data>
+            <data key="email">shelley.corman@enron.com</data>
+        </node>
+        <node id="28-Elizabeth-Sager">
+            <data key="name">Elizabeth Sager</data>
+            <data key="email">elizabeth.sager@enron.com</data>
+        </node>
+        <node id="102-Jonathan-Mckay">
+            <data key="name">Jonathan Mckay</data>
+            <data key="email">jonathan.mckay@enron.com</data>
+        </node>
+        <node id="38-Jane-Tholt">
+            <data key="name">Jane Tholt</data>
+            <data key="email">jane.tholt@enron.com</data>
+        </node>
+        <node id="130-Jeffrey-Skilling">
+            <data key="name">Jeffrey Skilling</data>
+            <data key="email">jeff.skilling@enron.com</data>
+        </node>
+        <node id="113-Darron-Giron">
+            <data key="name">Darron Giron</data>
+            <data key="email">c..giron@enron.com</data>
+        </node>
+        <node id="54-John-Lavorato">
+            <data key="name">John Lavorato</data>
+            <data key="email">lavorato@enron.com</data>
+        </node>
+        <node id="48-Brad-Mckay">
+            <data key="name">Brad Mckay</data>
+            <data key="email">brad.mckay@enron.com</data>
+        </node>
+        <node id="120-Mike-Carson">
+            <data key="name">Mike Carson</data>
+            <data key="email">mike.carson@enron.com</data>
+        </node>
+        <node id="2-Mike-Grigsby">
+            <data key="name">Mike Grigsby</data>
+            <data key="email">mike.grigsby@enron.com</data>
+        </node>
+        <node id="110-Vince-Kaminski">
+            <data key="name">Vince Kaminski</data>
+            <data key="email">j.kaminski@enron.com</data>
+        </node>
+        <node id="53-Kay-Mann">
+            <data key="name">Kay Mann</data>
+            <data key="email">kay.mann@enron.com</data>
+        </node>
+    </graph>
+</graphml>

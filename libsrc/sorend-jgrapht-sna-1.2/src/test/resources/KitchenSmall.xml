@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  ~ Copyright (c) 2012, Søren Atmakuri Davidsen
+  ~ All rights reserved.
+  ~
+  ~ Redistribution and use in source and binary forms, with or without
+  ~ modification, are permitted provided that the following conditions are met:
+  ~
+  ~ 1. Redistributions of source code must retain the above copyright notice, this
+  ~    list of conditions and the following disclaimer.
+  ~ 2. Redistributions in binary form must reproduce the above copyright notice,
+  ~    this list of conditions and the following disclaimer in the documentation
+  ~    and/or other materials provided with the distribution.
+  ~
+  ~ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+  ~ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+  ~ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+  ~ DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+  ~ ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+  ~ (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+  ~ LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+  ~ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+  ~ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+  ~ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+  -->
+
+<!--  weighted social network of known and suspected terrorists  -->
+<!--  involved in the September 11, 2001 Mohamed_Attacks                 -->
+
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+ <graph edgedefault="undirected">
+
+  <!-- data schema -->
+  <key id="name" for="node" attr.name="name" attr.type="string"/>
+  <key id="flight" for="node" attr.name="flight" attr.type="string">
+    <default></default>
+  </key>
+  <key id="pilot" for="node" attr.name="pilot" attr.type="boolean">
+    <default>false</default>
+  </key>
+  <key id="weight" for="edge" attr.name="weight" attr.type="int"/>
+
+	<node id="Mom"><data key="name">Mom</data></node>
+	<node id="Dad"><data key="name">Dad</data></node>
+	<node id="Salesman"><data key="name">Salesman</data></node>
+	<node id="Secretary"><data key="name">Secretary</data></node>
+	<node id="Asembler1"><data key="name">Asembler1</data></node>
+	<node id="Asembler2"><data key="name">Asembler2</data></node>
+	<node id="Asembler3"><data key="name">Asembler3</data></node>
+	<node id="Asembler4"><data key="name">Asembler4</data></node>
+
+	<edge source="Mom" target="Dad"><data key="weight">1</data></edge>
+	<edge source="Salesman" target="Mom"><data key="weight">1</data></edge>
+	<edge source="Salesman" target="Dad"><data key="weight">1</data></edge>
+	<edge source="Salesman" target="Secretary"><data key="weight">1</data></edge>
+	<edge source="Secretary" target="Asembler1"><data key="weight">1</data></edge>
+	<edge source="Secretary" target="Asembler2"><data key="weight">1</data></edge>
+	<edge source="Secretary" target="Asembler3"><data key="weight">1</data></edge>
+	<edge source="Secretary" target="Asembler4"><data key="weight">1</data></edge>
+	<edge source="Asembler1" target="Asembler2"><data key="weight">1</data></edge>
+	<edge source="Asembler1" target="Asembler3"><data key="weight">1</data></edge>
+	<edge source="Asembler1" target="Asembler4"><data key="weight">1</data></edge>
+	<edge source="Asembler2" target="Asembler3"><data key="weight">1</data></edge>
+	<edge source="Asembler2" target="Asembler4"><data key="weight">1</data></edge>
+	<edge source="Asembler3" target="Asembler4"><data key="weight">1</data></edge>
+
+
+
+
+
+ </graph>
+</graphml>
+

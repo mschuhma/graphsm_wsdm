@@ -1,0 +1,4 @@
+repo: f2c22a4cd52ce1dc7a8c1ca21d1a2d5f13d32953
+node: 0320378d8fe1390485d69496d19157088995bda0
+branch: default
+tag: jgrapht-sna-1.2

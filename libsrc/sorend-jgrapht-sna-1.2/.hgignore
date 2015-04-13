@@ -1,0 +1,9 @@
+syntax: glob
+dist
+target
+snaview-db
+*~
+*.iml
+*.ipr
+*.iws
+
