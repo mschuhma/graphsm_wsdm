@@ -1,3 +1,12 @@
+##### CONFIGURATION TEMPLATE FILE #####
+#
+# 1) Adapt this configuration file where needed 
+# 2) Save it as default.graphsm.conf in src/main/resources or provide it with the java classpath when working with a fat jar w/o configs
+# 3) Run it e.g. like this
+#          java -cp conf/:graphsm-1.1-SNAPSHOT-fat-jar-wo-configs.jar de.uma.dws.graphsm.experiments.Exp130801OneGraphOneDocDijkstraHungarianJGT
+#
+################################
+
 #Snippet Input Path
 input.snippets.path 	= ../05-SemEval/02-data/MoresqueAmbient
 #input.snippets.path 	= ../05-SemEval/02-data/Ambient
